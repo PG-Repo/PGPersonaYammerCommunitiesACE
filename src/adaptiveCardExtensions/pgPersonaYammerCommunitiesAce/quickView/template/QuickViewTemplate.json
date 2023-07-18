@@ -1,0 +1,38 @@
+{
+  "schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "type": "AdaptiveCard",
+  "version": "1.2",
+  "body": [
+    {
+      "type": "Container",
+      "separator": "true",
+      "$data": "${pgCommunities}",
+      "items": [
+        {
+          "type": "FactSet",
+          "spacing": "Large",
+          "facts": [
+              {
+                  "title": "Name",
+                  "value": "${Fullname}"
+              },
+              {
+                "title": "Total Members",
+                "value": "${Totalmembers}"
+               
+            },
+            {
+              "title": "Privacy Type",
+              "value": "${privacy}"
+          }
+            ]
+            }
+      ],
+      "selectAction": {
+        "type": "Action.OpenUrl",
+        "url": "${weburl}"
+        
+      }
+    }
+  ]
+}

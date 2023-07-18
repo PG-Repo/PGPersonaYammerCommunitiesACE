@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.20.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.2",
+    "libraryName": "pg-persona-yammer-communities-ace",
+    "libraryId": "504df5e2-3ea7-4b53-85a8-2d2e9f342bbb",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "pg-persona-yammer-communities-ace",
+    "solutionShortDescription": "pg-persona-yammer-communities-ace description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Image"
+  }
+}

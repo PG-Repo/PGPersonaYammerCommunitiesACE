@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pg-persona-yammer-communities-ace-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/pgPersonaYammerCommunitiesAce/PgPersonaYammerCommunitiesAceAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/pgPersonaYammerCommunitiesAce/PgPersonaYammerCommunitiesAceAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PgPersonaYammerCommunitiesAceAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/pgPersonaYammerCommunitiesAce/loc/{locale}.js"
+  }
+}

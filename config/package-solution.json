@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "pg-persona-yammer-communities-ace-client-side-solution",
+    "id": "504df5e2-3ea7-4b53-85a8-2d2e9f342bbb",
+    "version": "2.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "pg-persona-yammer-communities-ace description"
+      },
+      "longDescription": {
+        "default": "pg-persona-yammer-communities-ace description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "pg-persona-yammer-communities-ace Feature",
+        "description": "The feature that activates elements of the pg-persona-yammer-communities-ace solution.",
+        "id": "6e355889-320c-473f-bb9a-9056e68bafe8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/pg-persona-yammer-communities-ace.sppkg"
+  }
+}
